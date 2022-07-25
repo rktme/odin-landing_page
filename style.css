@@ -1,5 +1,119 @@
 *{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     box-sizing: border-box;
+    /* border: 1px solid #eeeeee; */
+}
+:root{
+    --color-primary-light: #3882f6;
+    --color-primary: #1f2937;
+    --color-secondary: #e5e7eb;
+    --color-light: rgb(249, 250, 248);
+    font-size: 16px;
+    font-family: 'Roboto', sans-sarif;
+}
+body{
+    margin:0;
+}
+h1{
+    font-size: 3rem;
+    line-height: 3.2rem;
+    margin: 0.2rem 0 0.2rem 0;
+}
+p{
+    margin-top: 0;
+}
+.section{
+    padding: 8rem 0 8rem 0;
+}
+.section#hero{
+    padding-top:0;
+}
+.section .container{
+    margin-inline: auto;
+    width: 1000px;
+}
+#hero{
+    background: var(--color-primary);
+}
+nav{
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+nav .sitename{
+    flex-grow: 1;
+}
+nav .sitename span{
+    color: var(--color-light);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding:1em;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    text-underline-offset: .25rem;
+}
+.group-2{
+    padding-top: 3rem;
+    display: flex;
+}
+.group-2>*{
+    flex-grow: 1;
+    width:100%;
+}
+.group-2 .text{
+    color: var(--color-light);
+    margin-right: 4rem;
+}
+.group-2 .text p{
+    color: var(--color-secondary);
+    font-size: 18px;
+}
+
+.group-2 .figure .img-temp{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(249, 250, 248, 0.5);
+    display: flex;
+    color: var(--color-light);
+}
+
+.group-2 .figure .img-temp span{
+    display: inline-block;
+    margin: auto;
+}
+
+/* Button */
+.btn{
+    padding: .5rem 1.5rem;
+}
+
+.btn.btn-primary{
+    font-family: 'Roboto', sans-sarif;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--color-primary-light);
+    color: var(--color-light);
+    border-radius: 0.4rem;
+    border: 1px solid var(--color-primary-light);
+}
+.btn.btn-primary:hover{
+    border-color: #2263cc;
 }
