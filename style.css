@@ -20,18 +20,33 @@ h1{
     line-height: 3.2rem;
     margin: 0.2rem 0 0.2rem 0;
 }
+h2{
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+    margin: 0.2rem 0 0.2rem 0;
+}
 p{
     margin-top: 0;
 }
 .section{
-    padding: 8rem 0 8rem 0;
-}
-.section#hero{
-    padding-top:0;
+    padding: 6rem 0 6rem 0;
 }
 .section .container{
     margin-inline: auto;
     width: 1000px;
+}
+.section .header{
+    margin-bottom: 2rem;
+}
+.section .header h2{
+    text-align: center;
+    color: var(--color-primary);
+}
+.section#hero{
+    padding:0 0 8rem 0;
+}
+.section#feature{
+    padding-top: 4rem;
 }
 #hero{
     background: var(--color-primary);
@@ -116,4 +131,28 @@ nav ul li a:hover{
 }
 .btn.btn-primary:hover{
     border-color: #2263cc;
+}
+
+/* Feature list */
+ul.list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+ul.list li.list-item{
+    width: 160px;
+}
+ul.list li.list-item .img-tile{
+    width: 160px;
+    height: 160px;
+    border: 4px solid var(--color-primary-light);
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+
+}
+ul.list li.list-item .text{
+    color: #333;
+    text-align: center;
 }
