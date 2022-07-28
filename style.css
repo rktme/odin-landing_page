@@ -161,3 +161,20 @@ ul.list li.list-item .text{
 }
 
 /* Testimonial Quote */
+.quote{
+    width: 800px;
+    margin-inline: auto;
+}
+.quote .text{
+    font-size: 2.25rem;
+    font-weight: 300;
+    font-style: italic;
+    color: var(--color-primary);
+    margin-bottom: 0;
+}
+.quote .author{
+    color: var(--color-primary);
+    text-align: right;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
