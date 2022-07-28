@@ -135,6 +135,15 @@ nav ul li a:hover{
 .btn.btn-primary:hover{
     border-color: #2263cc;
 }
+.btn.btn-outline{
+    font-family: 'Roboto', sans-sarif;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--color-primary-light);
+    color: var(--color-light);
+    border-radius: 0.4rem;
+    border: 2px solid var(--color-light);
+}
 
 /* Feature list */
 ul.list{
@@ -177,4 +186,25 @@ ul.list li.list-item .text{
     text-align: right;
     font-weight: 700;
     font-size: 1.6rem;
+}
+
+/* Call to action */
+.panel{
+    background-color: var(--color-primary-light);
+    border-radius: .5rem;
+    padding: 2rem 5rem;
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+.panel .text .title h3{
+    font-size: 1.4rem;
+    margin-bottom: 0rem;
+    color: var(--color-light);
+}
+.panel .text .body p{
+    margin: 0.2rem 0 1rem 0;
+    color: var(--color-light);
 }
