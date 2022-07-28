@@ -48,6 +48,9 @@ p{
 .section#feature{
     padding-top: 4rem;
 }
+.section#testimonial{
+    background-color: var(--color-secondary);
+}
 #hero{
     background: var(--color-primary);
 }
@@ -156,3 +159,5 @@ ul.list li.list-item .text{
     color: #333;
     text-align: center;
 }
+
+/* Testimonial Quote */
