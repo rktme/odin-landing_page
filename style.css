@@ -51,6 +51,10 @@ p{
 .section#testimonial{
     background-color: var(--color-secondary);
 }
+.section#footer{
+    background-color: var(--color-primary);
+    padding: 2rem 0 1rem 0;
+}
 #hero{
     background: var(--color-primary);
 }
@@ -206,5 +210,10 @@ ul.list li.list-item .text{
 }
 .panel .text .body p{
     margin: 0.2rem 0 1rem 0;
+    color: var(--color-light);
+}
+/* footer */
+#footer .text p{
+    text-align: center;
     color: var(--color-light);
 }
